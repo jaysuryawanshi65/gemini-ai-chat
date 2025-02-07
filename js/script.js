@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function generateResponse(prompt) {
     try {
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBzJOb5lC4v_eEEVWxL-5DRdDWcYztoSbQ`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBr9Eux7OBl_OzHpZfA-dcpr2V2Zvxia0M`,
         {
           method: "POST",
           headers: {
