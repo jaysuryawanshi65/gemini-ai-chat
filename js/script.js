@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const response = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBr9Eux7OBl_OzHpZfA-dcpr2V2Zvxia0M`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=`,
         {
           method: "POST",
           headers: {
